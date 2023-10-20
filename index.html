@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body>
+    <main class=" bg-[hsl(30,38%,92%)] h-screen px-2 text-sm font-montserrat flex flex-col justify-center md:flex-row text-[hsl(228,12%,48%)] ">
+        <section class=" md:flex md:w-1/2 md:h-4/5 md:my-auto ">
+            <img src="./images/image-product-mobile.jpg" alt="image-product-mobile" class=" md:hidden rounded-t-lg">
+            <img src="./images/image-product-desktop.jpg" alt="image-product-desktop" class=" hidden md:block rounded-l-lg">
+
+            <section class=" bg-white flex flex-col px-3 py-5 rounded-b-lg md:px-8 md:rounded-none md:rounded-r-lg">
+                <p class=" uppercase tracking-widest mb-5">Perfume</p>
+                <h1 class=" text-[2.5rem] leading-none font-fraunces font-bold mb-7 text-[hsl(212,21%,14%)]">Gabrielle Essence Eau De Parfum</h1>
+                <p class=" tracking-widest mb-9">
+                    A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                    Perfumer-Creator for the House of CHANEL.
+                </p>
+                <p class=" flex">
+                    <span class=" font-fraunces text-[2.5rem] text-[hsl(158,36%,37%)] mr-4 mb-7">$149.99</span>
+                    <span ><del>$169.99</del></span>
+                </p>
+                <button class=" bg-[hsl(158,36%,37%)] py-4 rounded-lg text-white flex justify-center items-center hover:bg-[hsl(157,36%,20%)]">
+                    <span><img src="./images/icon-cart.svg" alt="icon-cart"></span>
+                    <span class=" ml-3">Add to Cart</span>
+                </button>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
